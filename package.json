@@ -23,10 +23,12 @@
     "tslint-react": "^3.6.0",
     "typescript": "^2.7.2",
     "webpack": "^4.1.1",
-    "webpack-cli": "^3.1.1",
+    "webpack-cli": "^3.3.10",
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.0.0-beta.3",
+    "@stripe/stripe-js": "^1.0.0-beta.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "webextension-polyfill": "^0.6.0"

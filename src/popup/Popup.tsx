@@ -1,5 +1,6 @@
 import * as browser from "webextension-polyfill";
 import * as React from "react";
+import {Stripe} from "./Stripe";
 import "./Popup.scss";
 
 interface AppProps {}
@@ -24,7 +25,9 @@ export default class Popup extends React.Component<AppProps, AppState> {
     return (
       <div className="popupContainer">
         <p>Please register to use this extension</p>
-        <button onClick={this.onRegister}>Register here</button>
+        <div>
+          <Stripe />
+        </div>
       </div>
     );
   }
